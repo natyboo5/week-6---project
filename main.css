@@ -1,0 +1,167 @@
+/* HTML Selectors */
+body {
+    font-family: "Kalam", cursive;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #78b6dc;
+    padding: 1em;
+  }
+  ​
+  div {
+    margin: 10px;
+    text-align: center;
+  }
+  ​
+  footer {
+    background-color: rgb(69, 189, 205);
+    color: white;
+    padding: 5px;
+    text-align: center;
+  }
+  ​
+  header {
+    margin: auto;
+    text-align: center;
+  }
+  ​
+  label {
+    display: inline-block;
+    min-width: 120px;
+    text-align: left;
+    color: #008198;
+    font-size: 1.5rem;
+    text-decoration-line: underline;
+   }
+  ​
+  input,
+  textarea,
+  button,
+  select {
+    padding: 0.5rem;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+  }
+  ​
+  nav {
+    background-color: rgb(69, 189, 205);
+    color: white;
+  }
+  ​
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  ​
+  nav ul li:first-child {
+    display: block;
+  }
+  ​
+  nav ul li {
+    display: none;
+    list-style: none;
+    margin: 10px;
+  }
+  ​
+  nav ul li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    background-color: #efefef;
+    color: black;
+  }
+  ​
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  ​
+  img {
+    max-width: 40%;
+    border: 1px solid #008198;
+    padding: 10px;
+    margin: 40px;
+    box-shadow: 5px 5px 5px #008198;
+  }
+  ​
+  /* Class Selectors */
+  .active {
+    background-color: white;
+    color: black;
+  }
+  ​
+  .open li {
+    display: block;
+  }
+  ​
+  table {
+      border: 2px solid lightblue;
+  }
+  ​
+  th {
+      background-color: lightseagreen; 
+  }
+  ​
+  th,
+  td {
+      border: 1px solid lightblue;
+      padding: 0.5rem;
+      text-align: center;
+  }
+  /* ID Selectors */
+  ​
+  #name {
+      font-size: 2rem;
+      
+  }
+  #total {
+    font-size: 1.5em;
+    color: #511fdc;
+  }
+  ​
+  #hello {
+    background: #e0f0f1;
+    color: #077ef5;
+    font-size: 1.5em;
+    border-radius: 50px;
+    margin: 5% 15%;
+  }
+  /* Media Queries */
+  @media only screen and (min-width: 32.5em) {
+    nav ul {
+      flex-direction: row;
+    }
+  ​
+    nav ul li:first-child {
+      display: none;
+    }
+  ​
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+  }
+
+  #image img{
+    width: 390px;
+    height: 350px;
+   
+  }
+  #yourDog {
+    padding: 0.5em;
+  
+  }
+ 
+  #message3 {
+    text-transform: capitalize;
+  }
